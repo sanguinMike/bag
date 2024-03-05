@@ -7,7 +7,7 @@
         } else if(keyword == "vn") {
             ++normalIndexOffset;
             thisIsFirstMeshAndItHasNoData = false;
-
+//hello
 UnsignedInt ObjImporter::doMeshCount() const { return _file->meshes.size(); }
 
 Int ObjImporter::doMeshForName(const Containers::StringView name) {
