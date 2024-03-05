@@ -18,7 +18,7 @@ Int ObjImporter::doMeshForName(const Containers::StringView name) {
 Containers::String ObjImporter::doMeshName(UnsignedInt id) {
     return _file->meshNames[id];
 }
-
+//good
      const std::size_t keywordEnd = line.find(' ');
         const std::string keyword = line.substr(0, keywordEnd);
         const std::string contents = keywordEnd != std::string::npos ?
