@@ -23,3 +23,4 @@ Containers::String ObjImporter::doMeshName(UnsignedInt id) {
         const std::string keyword = line.substr(0, keywordEnd);
         const std::string contents = keywordEnd != std::string::npos ?
             Utility::String::ltrim(line.substr(keywordEnd+1)) : "";
+//here
